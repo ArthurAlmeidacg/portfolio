@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arthur Almeida Alves – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<!-- LANGUAGE BAR -->
+<div id="lang-bar">
+  <button class="lang-btn active" onclick="setLang('pt')">PT</button>
+  <button class="lang-btn" onclick="setLang('de')">DE</button>
+  <button class="lang-btn" onclick="setLang('en')">EN</button>
+</div>
+
+<div class="page">
+  <!-- HEADER -->
+  <header>
+    <div class="header-left">
+      <p class="eyebrow" data-static>Computer Science · TU Chemnitz</p>
+      <h1>Arthur<br><em>Almeida</em> Alves</h1>
+      <!-- PT -->
+      <p class="tagline" data-lang="pt">Desenvolvedor Full-Stack &amp; Estudante de Informática</p>
+      <!-- DE -->
+      <p class="tagline" data-lang="de">Informatikstudent &amp; Full-Stack Entwickler</p>
+      <!-- EN -->
+      <p class="tagline" data-lang="en">Computer Science Student &amp; Full-Stack Developer</p>
+    </div>
+    <div class="contact-block">
+      Alfons Pech Str. 9<br>
+      09114 Chemnitz<br>
+      +49 152 54738109<br>
+      <a href="mailto:almeidaarthur001@gmail.com">almeidaarthur001@gmail.com</a>
+    </div>
+  </header>
+
+  <!-- SOBRE / ÜBER MICH / ABOUT -->
+  <section>
+    <p class="section-label" data-lang="pt">Informações Pessoais</p>
+    <p class="section-label" data-lang="de">Persönliche Informationen</p>
+    <p class="section-label" data-lang="en">Personal Information</p>
+
+    <div class="info-row"><strong data-lang="pt">Nascimento</strong><strong data-lang="de">Geburtsdatum</strong><strong data-lang="en">Date of Birth</strong><span>03.06.1999 – Campina Grande, Brasilien</span></div>
+    <div class="info-row"><strong data-lang="pt">Residência</strong><strong data-lang="de">Niederlassungserlaubnis</strong><strong data-lang="en">Residence Permit</strong><span data-lang="pt">Autorização de residência desde 05/2022</span><span data-lang="de">Niederlassungserlaubnis seit 05/2022</span><span data-lang="en">Permanent residence permit since 05/2022</span></div>
+    <div class="info-row"><strong data-lang="pt">CNH</strong><strong data-lang="de">Führerschein</strong><strong data-lang="en">Driver's License</strong><span data-lang="pt">Categoria B</span><span data-lang="de">Klasse B</span><span data-lang="en">Class B</span></div>
+  </section>
+
+  <!-- EDUCAÇÃO / BILDUNG / EDUCATION -->
+  <section>
+    <p class="section-label" data-lang="pt">Formação Acadêmica</p>
+    <p class="section-label" data-lang="de">Bildungsweg</p>
+    <p class="section-label" data-lang="en">Education</p>
+
+    <div class="entry">
+      <div class="entry-date">10/2020 → hoje<br>10/2020 → heute<br>10/2020 → present</div>
+      <div class="entry-body">
+        <h3>Bachelor of Science – Informatik</h3>
+        <p class="place">TU Chemnitz</p>
+        <p data-lang="pt">Ciência da Computação – em andamento</p>
+        <p data-lang="de">Informatikstudium – laufend</p>
+        <p data-lang="en">Computer Science – ongoing</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-date">09/2018 → 08/2020</div>
+      <div class="entry-body">
+        <h3 data-lang="pt">Studienkolleg Glauchau – Curso T</h3>
+        <h3 data-lang="de">Studienkolleg Glauchau – „T"-Kurs</h3>
+        <h3 data-lang="en">Studienkolleg Glauchau – T-Course</h3>
+        <p class="place">Glauchau</p>
+        <p data-lang="pt">Exame de ingresso universitário (Feststellungsprüfung)</p>
+        <p data-lang="de">Abschluss: Feststellungsprüfung Hochschulreife</p>
+        <p data-lang="en">University entrance qualification (Feststellungsprüfung)</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-date">06/2017 → 08/2018</div>
+      <div class="entry-body">
+        <h3 data-lang="pt">Curso Preparatório com Orientação Profissional</h3>
+        <h3 data-lang="de">Vorbereitungsklasse mit berufspraktischen Aspekten</h3>
+        <h3 data-lang="en">Preparatory Class with Vocational Aspects</h3>
+        <p class="place">Berufliches Schulzentrum für Technik I, Chemnitz</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-date">02/2008 → 12/2016</div>
+      <div class="entry-body">
+        <h3 data-lang="pt">Ensino Fundamental e Médio</h3>
+        <h3 data-lang="de">Grundschule und weiterführende Schule</h3>
+        <h3 data-lang="en">Primary and Secondary School</h3>
+        <p class="place">Escola Carmela Veloso, Campina Grande – Brasil</p>
+        <p data-lang="pt">Concluído com o exame nacional ENEM 2016</p>
+        <p data-lang="de">Abschluss mit Hochschulzugangsprüfung „Enem 2016"</p>
+        <p data-lang="en">Completed with national university entrance exam ENEM 2016</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section>
+    <p class="section-label" data-lang="pt">Experiência Profissional</p>
+    <p class="section-label" data-lang="de">Berufserfahrung</p>
+    <p class="section-label" data-lang="en">Work Experience</p>
+
+    <div class="entry">
+      <div class="entry-date">04/2023 → 06/2023</div>
+      <div class="entry-body">
+        <h3 data-lang="pt">Estudante Trabalhador (Werkstudent)</h3>
+        <h3 data-lang="de">Werkstudent</h3>
+        <h3 data-lang="en">Working Student (Werkstudent)</h3>
+        <p class="place">STC Spinnzwirn GmbH, Chemnitz</p>
+        <p data-lang="pt">Desenvolvimento de website para a empresa.</p>
+        <p data-lang="de">Entwicklung einer Unternehmenswebsite.</p>
+        <p data-lang="en">Developed a company website.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section>
+    <p class="section-label" data-lang="pt">Projetos</p>
+    <p class="section-label" data-lang="de">Projekte</p>
+    <p class="section-label" data-lang="en">Projects</p>
+
+    <!-- PT -->
+    <div class="projects-grid" data-lang="pt">
+      <div class="project-card">
+        <p class="project-meta">2025 · Segurança Web & IA</p>
+        <h3>PhishGuard</h3>
+        <ul>
+          <li>Detector de phishing com inteligência artificial</li>
+          <li>Backend em Python (FastAPI) + API Groq (LLaMA 3.3 70B)</li>
+          <li>Frontend em HTML5, CSS3 e JavaScript puro</li>
+          <li>CORS, rate limiting e validação de entrada</li>
+          <li>Deploy: Render (backend) + GitHub Pages (frontend)</li>
+        </ul>
+        <a class="project-link" href="https://github.com/maxmustermann/phishguard" target="_blank">→ github.com/maxmustermann/phishguard</a>
+      </div>
+      <div class="project-card">
+        <p class="project-meta">App Mobile · TensorFlow Lite & Gemini AI</p>
+        <h3>BODE – Detector de Objetos</h3>
+        <ul>
+          <li>App para detecção de objetos em tempo real com feedback de áudio</li>
+          <li>Indicação por áudio da posição do objeto (esquerda, direita, frente)</li>
+          <li>Integração com IA do Google Gemini: foto → descrição em áudio do ambiente</li>
+          <li>Desenvolvido com TensorFlow Lite</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ArthurAlmeidacg/BODE" target="_blank">→ github.com/ArthurAlmeidacg/BODE</a>
+      </div>
+    </div>
+
+    <!-- DE -->
+    <div class="projects-grid" data-lang="de">
+      <div class="project-card">
+        <p class="project-meta">2025 · Webentwicklung & IT-Sicherheit</p>
+        <h3>PhishGuard – KI-Phishing-Detektor</h3>
+        <ul>
+          <li>Webanwendung zur automatischen Erkennung von Phishing-Nachrichten</li>
+          <li>Backend mit Python (FastAPI) + Groq-KI-API (LLaMA 3.3 70B)</li>
+          <li>Frontend mit HTML5, CSS3 und JavaScript – ohne Frameworks</li>
+          <li>CORS-Sicherheit, Rate Limiting und Input-Validierung</li>
+          <li>Deployment: Render (Backend) + GitHub Pages (Frontend)</li>
+        </ul>
+        <a class="project-link" href="https://github.com/maxmustermann/phishguard" target="_blank">→ github.com/maxmustermann/phishguard</a>
+      </div>
+      <div class="project-card">
+        <p class="project-meta">Mobile App · TensorFlow Lite & Gemini KI</p>
+        <h3>BODE – Objektdetektor App</h3>
+        <ul>
+          <li>Echtzeit-Objekterkennung mit akustischem Feedback</li>
+          <li>Audioausgabe der Objektposition (links, rechts, geradeaus)</li>
+          <li>Google Gemini KI: Foto → vollständige Audiobeschreibung der Umgebung</li>
+          <li>Entwickelt mit TensorFlow Lite</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ArthurAlmeidacg/BODE" target="_blank">→ github.com/ArthurAlmeidacg/BODE</a>
+      </div>
+    </div>
+
+    <!-- EN -->
+    <div class="projects-grid" data-lang="en">
+      <div class="project-card">
+        <p class="project-meta">2025 · Web Security & AI</p>
+        <h3>PhishGuard – AI Phishing Detector</h3>
+        <ul>
+          <li>Web app for automatic phishing message detection using AI</li>
+          <li>Backend: Python (FastAPI) + Groq API (LLaMA 3.3 70B)</li>
+          <li>Frontend: HTML5, CSS3 and vanilla JavaScript</li>
+          <li>CORS protection, rate limiting and input validation</li>
+          <li>Deployed on Render (backend) and GitHub Pages (frontend)</li>
+        </ul>
+        <a class="project-link" href="https://github.com/maxmustermann/phishguard" target="_blank">→ github.com/maxmustermann/phishguard</a>
+      </div>
+      <div class="project-card">
+        <p class="project-meta">Mobile App · TensorFlow Lite & Gemini AI</p>
+        <h3>BODE – Object Detector App</h3>
+        <ul>
+          <li>Real-time object detection with spatial audio feedback</li>
+          <li>Audio cues for object position (left, right, straight ahead)</li>
+          <li>Google Gemini AI integration: photo → full audio scene description</li>
+          <li>Built with TensorFlow Lite</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ArthurAlmeidacg/BODE" target="_blank">→ github.com/ArthurAlmeidacg/BODE</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETÊNCIAS -->
+  <section>
+    <p class="section-label" data-lang="pt">Competências Técnicas</p>
+    <p class="section-label" data-lang="de">Technische Fähigkeiten</p>
+    <p class="section-label" data-lang="en">Technical Skills</p>
+
+    <!-- PT -->
+    <div class="skills-grid" data-lang="pt">
+      <div class="skill-group">
+        <h4>Linguagens</h4>
+        <div class="skill-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">Java</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frameworks & Ferramentas</h4>
+        <div class="skill-tags">
+          <span class="tag">FastAPI</span><span class="tag">TensorFlow Lite</span><span class="tag">GitHub</span><span class="tag">Render</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>IA & APIs</h4>
+        <div class="skill-tags">
+          <span class="tag">Google Gemini</span><span class="tag">Groq (LLaMA)</span><span class="tag">ML</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Outros</h4>
+        <div class="skill-tags">
+          <span class="tag">Microsoft Office</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DE -->
+    <div class="skills-grid" data-lang="de">
+      <div class="skill-group">
+        <h4>Programmiersprachen</h4>
+        <div class="skill-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">Java</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frameworks & Tools</h4>
+        <div class="skill-tags">
+          <span class="tag">FastAPI</span><span class="tag">TensorFlow Lite</span><span class="tag">GitHub</span><span class="tag">Render</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>KI & APIs</h4>
+        <div class="skill-tags">
+          <span class="tag">Google Gemini</span><span class="tag">Groq (LLaMA)</span><span class="tag">ML</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Sonstiges</h4>
+        <div class="skill-tags">
+          <span class="tag">Microsoft Office</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- EN -->
+    <div class="skills-grid" data-lang="en">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skill-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">Java</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frameworks & Tools</h4>
+        <div class="skill-tags">
+          <span class="tag">FastAPI</span><span class="tag">TensorFlow Lite</span><span class="tag">GitHub</span><span class="tag">Render</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>AI & APIs</h4>
+        <div class="skill-tags">
+          <span class="tag">Google Gemini</span><span class="tag">Groq (LLaMA)</span><span class="tag">ML</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Other</h4>
+        <div class="skill-tags">
+          <span class="tag">Microsoft Office</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS / ZERTIFIKATE / COURSES -->
+  <section>
+    <p class="section-label" data-lang="pt">Cursos & Certificações</p>
+    <p class="section-label" data-lang="de">Kurse & Zertifikate</p>
+    <p class="section-label" data-lang="en">Courses & Certifications</p>
+
+    <div class="entry">
+      <div class="entry-date">Udemy / Alura</div>
+      <div class="entry-body">
+        <ul style="list-style:none;padding:0;">
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> Python Programming from Zero to Advanced + Real Projects (2024)</li>
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> Basic to Advanced C Programming</li>
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> Advanced C Programming Masterclass: Pointers &amp; Memory in C</li>
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> JavaScript and TypeScript – Basics to Advanced</li>
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> AI Immersion 2nd Edition – Alura &amp; Google</li>
+          <li style="padding:4px 0 4px 16px;position:relative;font-size:14px;color:#b0ab9f;"><span style="position:absolute;left:0;color:var(--accent);">→</span> Back-End Dev Immersion – Alura &amp; Google Gemini</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDIOMAS -->
+  <section>
+    <p class="section-label" data-lang="pt">Idiomas</p>
+    <p class="section-label" data-lang="de">Sprachkenntnisse</p>
+    <p class="section-label" data-lang="en">Languages</p>
+
+    <div class="lang-row" data-lang="pt">
+      <div class="lang-pill">🇧🇷 Português <span class="lang-level">NATIVO</span></div>
+      <div class="lang-pill">🇩🇪 Alemão <span class="lang-level">C1</span></div>
+      <div class="lang-pill">🇬🇧 Inglês <span class="lang-level">BÁSICO–INTERMEDIÁRIO</span></div>
+    </div>
+    <div class="lang-row" data-lang="de">
+      <div class="lang-pill">🇧🇷 Portugiesisch <span class="lang-level">MUTTERSPRACHE</span></div>
+      <div class="lang-pill">🇩🇪 Deutsch <span class="lang-level">C1</span></div>
+      <div class="lang-pill">🇬🇧 Englisch <span class="lang-level">GRUNDKENNTNISSE</span></div>
+    </div>
+    <div class="lang-row" data-lang="en">
+      <div class="lang-pill">🇧🇷 Portuguese <span class="lang-level">NATIVE</span></div>
+      <div class="lang-pill">🇩🇪 German <span class="lang-level">C1</span></div>
+      <div class="lang-pill">🇬🇧 English <span class="lang-level">BASIC–INTERMEDIATE</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Arthur Almeida Alves · Chemnitz, 2025</span>
+    <span>almeidaarthur001@gmail.com</span>
+  </footer>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
